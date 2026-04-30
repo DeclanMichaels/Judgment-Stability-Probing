@@ -1,0 +1,14 @@
+{
+  "vendor": "llamacpp",
+  "api_base": "http://192.168.7.144:2652/v1",
+  "auth_env_var": "LOCAL_API_KEY",
+  "api_style": "openai",
+  "models": [
+    {
+      "id": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+      "label": "Llama 3 8B Instruct (llama.cpp local)",
+      "max_tokens": 4096,
+      "supports_temperature": true
+    }
+  ]
+}

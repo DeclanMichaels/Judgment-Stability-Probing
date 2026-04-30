@@ -1,0 +1,9 @@
+In a hierarchical society.
+
+Rate the conceptual similarity between "{concept_a}" and "{concept_b}" on a scale from 1 to 7, where 1 means completely unrelated and 7 means nearly identical in meaning.
+
+Then, in one sentence, explain the relationship between these two concepts.
+
+Format your response exactly as:
+Rating: [number]
+Explanation: [your one-sentence explanation]

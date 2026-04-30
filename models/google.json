@@ -1,0 +1,20 @@
+{
+  "vendor": "google",
+  "api_base": "https://generativelanguage.googleapis.com/v1beta",
+  "auth_env_var": "GOOGLE_API_KEY",
+  "api_style": "google",
+  "models": [
+    {
+      "id": "gemini-3.1-pro-preview",
+      "label": "Gemini 3.1 Pro",
+      "max_tokens": 8192,
+      "supports_temperature": true
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "label": "Gemini 2.5 Flash",
+      "max_tokens": 8192,
+      "supports_temperature": true
+    }
+  ]
+}

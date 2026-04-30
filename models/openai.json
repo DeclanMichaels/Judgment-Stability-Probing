@@ -1,0 +1,32 @@
+{
+  "vendor": "openai",
+  "api_base": "https://api.openai.com/v1",
+  "auth_env_var": "OPENAI_API_KEY",
+  "api_style": "openai",
+  "models": [
+    {
+      "id": "gpt-5.4",
+      "label": "GPT-5.4",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "label": "GPT-5.4 Mini",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    },
+    {
+      "id": "gpt-5.2",
+      "label": "GPT-5.2",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    },
+    {
+      "id": "gpt-4o",
+      "label": "GPT-4o",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    }
+  ]
+}

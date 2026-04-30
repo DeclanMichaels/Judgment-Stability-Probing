@@ -1,0 +1,8 @@
+{
+  "id": "architecture-review",
+  "label": "Architecture Review",
+  "description": "Evaluate how components of a system fit together: boundaries, coupling, data flow, failure modes",
+  "temperature": 0.5,
+  "system_prompt": "You are reviewing a multi-file codebase. The files are separated by markers showing the filename. Your job is to evaluate the system as a whole, not individual files in isolation. Focus on how the pieces connect, where the boundaries are drawn, and where they are drawn wrong. Do not review line-level style.",
+  "user_template": "Review the following codebase for architectural problems. Focus on:\n- Boundaries: are responsibilities in the right files? Are modules doing too much or too little?\n- Coupling: what breaks if you change one file? Are there hidden dependencies (shared globals, import cycles, implicit contracts)?\n- Data flow: is it clear how data moves through the system? Are there unnecessary transformations or format changes?\n- Error propagation: where do errors get swallowed? Where would a failure in one component cascade silently to another?\n- Missing abstractions: is there logic that should be shared but is duplicated across files?\n- Unnecessary abstractions: is there indirection that adds complexity without enabling anything?\n\nFor each issue, name the files involved and explain the structural problem.\n\n---\n\n{document}"
+}

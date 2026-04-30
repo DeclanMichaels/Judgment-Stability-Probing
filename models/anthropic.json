@@ -1,0 +1,20 @@
+{
+  "vendor": "anthropic",
+  "api_base": "https://api.anthropic.com/v1",
+  "auth_env_var": "ANTHROPIC_API_KEY",
+  "api_style": "anthropic",
+  "models": [
+    {
+      "id": "claude-opus-4-6",
+      "label": "Opus 4.6",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "label": "Sonnet 4.6",
+      "max_tokens": 16384,
+      "supports_temperature": true
+    }
+  ]
+}
