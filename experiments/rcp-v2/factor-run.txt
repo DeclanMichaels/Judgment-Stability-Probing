@@ -1,0 +1,78 @@
+Loading similarity matrices...
+  Opus 4.6...
+  Sonnet 4.6...
+  Gemini 2.5 Flash...
+  GPT-5.4...
+  GPT-5.4 Mini...
+  Llama 3.3 70B...
+  Grok 4.1 Fast...
+  Grok 4.20...
+
+===========================================================================
+PCA / FACTOR ANALYSIS RESULTS
+===========================================================================
+
+--- Opus 4.6 ---
+  First 3 components: 30.9%, 25.6%, 5.9% (cumulative: 62.4%)
+  Components for 90% variance: 14
+  Domain-component alignment: 59.3%
+  Component-domain mapping:
+    PC1 -> institutional (institutional=5.649, moral=3.578, physical=5.293)
+    PC2 -> moral (institutional=4.704, moral=6.072, physical=1.425)
+    PC3 -> physical (institutional=1.696, moral=1.525, physical=2.055)
+  Misaligned concepts (22):
+    acceleration (physical) -> PC1
+    amplitude (physical) -> PC1
+    bureaucracy (institutional) -> PC2
+    buoyancy (physical) -> PC1
+    convection (physical) -> PC1
+    crystallization (physical) -> PC1
+    density (physical) -> PC1
+    conduction (physical) -> PC1
+    evaporation (physical) -> PC1
+    elasticity (physical) -> PC1
+    diffusion (physical) -> PC1
+    oscillation (physical) -> PC1
+    magnetism (physical) -> PC1
+    refraction (physical) -> PC1
+    turbulence (physical) -> PC1
+    sublimation (physical) -> PC2
+    census (institutional) -> PC2
+    regulation (institutional) -> PC3
+    federation (institutional) -> PC2
+    tariff (institutional) -> PC2
+    taxation (institutional) -> PC2
+    obedience (moral) -> PC1
+
+--- Sonnet 4.6 ---
+  First 3 components: 32.2%, 26.1%, 5.2% (cumulative: 63.6%)
+  Components for 90% variance: 15
+  Domain-component alignment: 72.2%
+  Component-domain mapping:
+    PC1 -> moral (institutional=1.781, moral=7.358, physical=3.463)
+    PC2 -> institutional (institutional=6.562, moral=2.767, physical=2.325)
+    PC3 -> physical (institutional=1.814, moral=1.135, physical=1.824)
+  Misaligned concepts (15):
+    acceleration (physical) -> PC1
+    amplitude (physical) -> PC2
+    buoyancy (physical) -> PC2
+    convection (physical) -> PC1
+    crystallization (physical) -> PC1
+    density (physical) -> PC1
+    conduction (physical) -> PC1
+    evaporation (physical) -> PC1
+    diffusion (physical) -> PC1
+    sublimation (physical) -> PC2
+    oscillation (physical) -> PC1
+    magnetism (physical) -> PC2
+    refraction (physical) -> PC2
+    viscosity (physical) -> PC1
+    turbulence (physical) -> PC1
+
+--- Gemini 2.5 Flash ---
+  First 3 components: 32.9%, 19.6%, 7.8% (cumulative: 60.3%)
+  Components for 90% variance: 17
+  Component-domain mapping:
+    PC1 -> moral (institutional=2.329, moral=9.670, physical=3.012)
+    PC2 -> institutional (institutional=7.324, moral=2.563, physical=2.050)
+    PC3 -> institutional (institutional=2.626, moral=1.701, physical=2.617)
