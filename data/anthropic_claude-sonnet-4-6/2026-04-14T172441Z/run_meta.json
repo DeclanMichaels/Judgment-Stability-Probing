@@ -1,0 +1,34 @@
+{
+  "experiment": "rcp-v2",
+  "model": "claude-sonnet-4-6",
+  "vendor": "anthropic",
+  "started": "2026-04-18T02:41:33.831198+00:00",
+  "completed": "2026-04-18T18:13:58.265816+00:00",
+  "cancelled": false,
+  "resumed": true,
+  "resumed_from": 35113,
+  "parameters": {
+    "iterations": 5,
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "templates_used": [
+      "unframed",
+      "individualist",
+      "collectivist",
+      "hierarchical",
+      "egalitarian",
+      "geometric",
+      "glorbic"
+    ],
+    "delay_seconds": 1.0
+  },
+  "counts": {
+    "stimuli": 1431,
+    "templates": 7,
+    "iterations": 5,
+    "expected_responses": 50085,
+    "actual_responses": 50085,
+    "parse_failures": 0,
+    "api_errors": 0
+  }
+}

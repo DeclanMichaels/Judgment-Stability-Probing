@@ -1,0 +1,676 @@
+{
+  "concepts": [
+    "acceleration",
+    "amplitude",
+    "buoyancy",
+    "conduction",
+    "convection",
+    "crystallization",
+    "density",
+    "diffusion",
+    "elasticity",
+    "erosion",
+    "evaporation",
+    "friction",
+    "magnetism",
+    "oscillation",
+    "refraction",
+    "sublimation",
+    "turbulence",
+    "viscosity",
+    "arbitration",
+    "bureaucracy",
+    "census",
+    "citizenship",
+    "constitution",
+    "federation",
+    "jurisdiction",
+    "legislation",
+    "naturalization",
+    "parliament",
+    "prosecution",
+    "ratification",
+    "referendum",
+    "regulation",
+    "republic",
+    "sovereignty",
+    "tariff",
+    "taxation",
+    "altruism",
+    "compassion",
+    "conscience",
+    "courage",
+    "devotion",
+    "dignity",
+    "forgiveness",
+    "generosity",
+    "gratitude",
+    "honesty",
+    "honor",
+    "humility",
+    "integrity",
+    "loyalty",
+    "obedience",
+    "sacrifice",
+    "tolerance",
+    "wisdom"
+  ],
+  "domains": [
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "physical",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "institutional",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral",
+    "moral"
+  ],
+  "models": {
+    "all-MiniLM-L6-v2": {
+      "overall_silhouette": 0.2008,
+      "cluster_accuracy": 1.0,
+      "cluster_accuracy_fraction": "54/54",
+      "negative_silhouette_count": 0,
+      "all_positive": true,
+      "misplaced_concepts": [],
+      "per_concept": [
+        {
+          "concept": "acceleration",
+          "domain": "physical",
+          "silhouette": 0.1134
+        },
+        {
+          "concept": "amplitude",
+          "domain": "physical",
+          "silhouette": 0.0771
+        },
+        {
+          "concept": "buoyancy",
+          "domain": "physical",
+          "silhouette": 0.1311
+        },
+        {
+          "concept": "conduction",
+          "domain": "physical",
+          "silhouette": 0.1051
+        },
+        {
+          "concept": "convection",
+          "domain": "physical",
+          "silhouette": 0.2434
+        },
+        {
+          "concept": "crystallization",
+          "domain": "physical",
+          "silhouette": 0.1283
+        },
+        {
+          "concept": "density",
+          "domain": "physical",
+          "silhouette": 0.1363
+        },
+        {
+          "concept": "diffusion",
+          "domain": "physical",
+          "silhouette": 0.2072
+        },
+        {
+          "concept": "elasticity",
+          "domain": "physical",
+          "silhouette": 0.2106
+        },
+        {
+          "concept": "erosion",
+          "domain": "physical",
+          "silhouette": 0.1589
+        },
+        {
+          "concept": "evaporation",
+          "domain": "physical",
+          "silhouette": 0.1967
+        },
+        {
+          "concept": "friction",
+          "domain": "physical",
+          "silhouette": 0.1922
+        },
+        {
+          "concept": "magnetism",
+          "domain": "physical",
+          "silhouette": 0.0743
+        },
+        {
+          "concept": "oscillation",
+          "domain": "physical",
+          "silhouette": 0.181
+        },
+        {
+          "concept": "refraction",
+          "domain": "physical",
+          "silhouette": 0.1789
+        },
+        {
+          "concept": "sublimation",
+          "domain": "physical",
+          "silhouette": 0.1057
+        },
+        {
+          "concept": "turbulence",
+          "domain": "physical",
+          "silhouette": 0.2124
+        },
+        {
+          "concept": "viscosity",
+          "domain": "physical",
+          "silhouette": 0.2918
+        },
+        {
+          "concept": "arbitration",
+          "domain": "institutional",
+          "silhouette": 0.1117
+        },
+        {
+          "concept": "bureaucracy",
+          "domain": "institutional",
+          "silhouette": 0.1556
+        },
+        {
+          "concept": "census",
+          "domain": "institutional",
+          "silhouette": 0.1393
+        },
+        {
+          "concept": "citizenship",
+          "domain": "institutional",
+          "silhouette": 0.1517
+        },
+        {
+          "concept": "constitution",
+          "domain": "institutional",
+          "silhouette": 0.2679
+        },
+        {
+          "concept": "federation",
+          "domain": "institutional",
+          "silhouette": 0.2027
+        },
+        {
+          "concept": "jurisdiction",
+          "domain": "institutional",
+          "silhouette": 0.2495
+        },
+        {
+          "concept": "legislation",
+          "domain": "institutional",
+          "silhouette": 0.2802
+        },
+        {
+          "concept": "naturalization",
+          "domain": "institutional",
+          "silhouette": 0.161
+        },
+        {
+          "concept": "parliament",
+          "domain": "institutional",
+          "silhouette": 0.2289
+        },
+        {
+          "concept": "prosecution",
+          "domain": "institutional",
+          "silhouette": 0.0976
+        },
+        {
+          "concept": "ratification",
+          "domain": "institutional",
+          "silhouette": 0.2049
+        },
+        {
+          "concept": "referendum",
+          "domain": "institutional",
+          "silhouette": 0.2214
+        },
+        {
+          "concept": "regulation",
+          "domain": "institutional",
+          "silhouette": 0.196
+        },
+        {
+          "concept": "republic",
+          "domain": "institutional",
+          "silhouette": 0.1949
+        },
+        {
+          "concept": "sovereignty",
+          "domain": "institutional",
+          "silhouette": 0.2389
+        },
+        {
+          "concept": "tariff",
+          "domain": "institutional",
+          "silhouette": 0.1911
+        },
+        {
+          "concept": "taxation",
+          "domain": "institutional",
+          "silhouette": 0.203
+        },
+        {
+          "concept": "altruism",
+          "domain": "moral",
+          "silhouette": 0.1992
+        },
+        {
+          "concept": "compassion",
+          "domain": "moral",
+          "silhouette": 0.3053
+        },
+        {
+          "concept": "conscience",
+          "domain": "moral",
+          "silhouette": 0.171
+        },
+        {
+          "concept": "courage",
+          "domain": "moral",
+          "silhouette": 0.2681
+        },
+        {
+          "concept": "devotion",
+          "domain": "moral",
+          "silhouette": 0.287
+        },
+        {
+          "concept": "dignity",
+          "domain": "moral",
+          "silhouette": 0.2166
+        },
+        {
+          "concept": "forgiveness",
+          "domain": "moral",
+          "silhouette": 0.2785
+        },
+        {
+          "concept": "generosity",
+          "domain": "moral",
+          "silhouette": 0.2264
+        },
+        {
+          "concept": "gratitude",
+          "domain": "moral",
+          "silhouette": 0.3402
+        },
+        {
+          "concept": "honesty",
+          "domain": "moral",
+          "silhouette": 0.2717
+        },
+        {
+          "concept": "honor",
+          "domain": "moral",
+          "silhouette": 0.1734
+        },
+        {
+          "concept": "humility",
+          "domain": "moral",
+          "silhouette": 0.3149
+        },
+        {
+          "concept": "integrity",
+          "domain": "moral",
+          "silhouette": 0.1683
+        },
+        {
+          "concept": "loyalty",
+          "domain": "moral",
+          "silhouette": 0.286
+        },
+        {
+          "concept": "obedience",
+          "domain": "moral",
+          "silhouette": 0.2701
+        },
+        {
+          "concept": "sacrifice",
+          "domain": "moral",
+          "silhouette": 0.2119
+        },
+        {
+          "concept": "tolerance",
+          "domain": "moral",
+          "silhouette": 0.1574
+        },
+        {
+          "concept": "wisdom",
+          "domain": "moral",
+          "silhouette": 0.2575
+        }
+      ]
+    },
+    "all-mpnet-base-v2": {
+      "overall_silhouette": 0.2445,
+      "cluster_accuracy": 1.0,
+      "cluster_accuracy_fraction": "54/54",
+      "negative_silhouette_count": 0,
+      "all_positive": true,
+      "misplaced_concepts": [],
+      "per_concept": [
+        {
+          "concept": "acceleration",
+          "domain": "physical",
+          "silhouette": 0.1498
+        },
+        {
+          "concept": "amplitude",
+          "domain": "physical",
+          "silhouette": 0.073
+        },
+        {
+          "concept": "buoyancy",
+          "domain": "physical",
+          "silhouette": 0.2292
+        },
+        {
+          "concept": "conduction",
+          "domain": "physical",
+          "silhouette": 0.2107
+        },
+        {
+          "concept": "convection",
+          "domain": "physical",
+          "silhouette": 0.2963
+        },
+        {
+          "concept": "crystallization",
+          "domain": "physical",
+          "silhouette": 0.1993
+        },
+        {
+          "concept": "density",
+          "domain": "physical",
+          "silhouette": 0.2211
+        },
+        {
+          "concept": "diffusion",
+          "domain": "physical",
+          "silhouette": 0.2863
+        },
+        {
+          "concept": "elasticity",
+          "domain": "physical",
+          "silhouette": 0.2083
+        },
+        {
+          "concept": "erosion",
+          "domain": "physical",
+          "silhouette": 0.205
+        },
+        {
+          "concept": "evaporation",
+          "domain": "physical",
+          "silhouette": 0.2385
+        },
+        {
+          "concept": "friction",
+          "domain": "physical",
+          "silhouette": 0.2079
+        },
+        {
+          "concept": "magnetism",
+          "domain": "physical",
+          "silhouette": 0.1811
+        },
+        {
+          "concept": "oscillation",
+          "domain": "physical",
+          "silhouette": 0.2075
+        },
+        {
+          "concept": "refraction",
+          "domain": "physical",
+          "silhouette": 0.22
+        },
+        {
+          "concept": "sublimation",
+          "domain": "physical",
+          "silhouette": 0.2418
+        },
+        {
+          "concept": "turbulence",
+          "domain": "physical",
+          "silhouette": 0.1993
+        },
+        {
+          "concept": "viscosity",
+          "domain": "physical",
+          "silhouette": 0.2461
+        },
+        {
+          "concept": "arbitration",
+          "domain": "institutional",
+          "silhouette": 0.0359
+        },
+        {
+          "concept": "bureaucracy",
+          "domain": "institutional",
+          "silhouette": 0.16
+        },
+        {
+          "concept": "census",
+          "domain": "institutional",
+          "silhouette": 0.1226
+        },
+        {
+          "concept": "citizenship",
+          "domain": "institutional",
+          "silhouette": 0.226
+        },
+        {
+          "concept": "constitution",
+          "domain": "institutional",
+          "silhouette": 0.2501
+        },
+        {
+          "concept": "federation",
+          "domain": "institutional",
+          "silhouette": 0.1381
+        },
+        {
+          "concept": "jurisdiction",
+          "domain": "institutional",
+          "silhouette": 0.2423
+        },
+        {
+          "concept": "legislation",
+          "domain": "institutional",
+          "silhouette": 0.2741
+        },
+        {
+          "concept": "naturalization",
+          "domain": "institutional",
+          "silhouette": 0.2042
+        },
+        {
+          "concept": "parliament",
+          "domain": "institutional",
+          "silhouette": 0.1655
+        },
+        {
+          "concept": "prosecution",
+          "domain": "institutional",
+          "silhouette": 0.0677
+        },
+        {
+          "concept": "ratification",
+          "domain": "institutional",
+          "silhouette": 0.2674
+        },
+        {
+          "concept": "referendum",
+          "domain": "institutional",
+          "silhouette": 0.2367
+        },
+        {
+          "concept": "regulation",
+          "domain": "institutional",
+          "silhouette": 0.1872
+        },
+        {
+          "concept": "republic",
+          "domain": "institutional",
+          "silhouette": 0.2114
+        },
+        {
+          "concept": "sovereignty",
+          "domain": "institutional",
+          "silhouette": 0.1438
+        },
+        {
+          "concept": "tariff",
+          "domain": "institutional",
+          "silhouette": 0.1813
+        },
+        {
+          "concept": "taxation",
+          "domain": "institutional",
+          "silhouette": 0.197
+        },
+        {
+          "concept": "altruism",
+          "domain": "moral",
+          "silhouette": 0.3353
+        },
+        {
+          "concept": "compassion",
+          "domain": "moral",
+          "silhouette": 0.4012
+        },
+        {
+          "concept": "conscience",
+          "domain": "moral",
+          "silhouette": 0.2731
+        },
+        {
+          "concept": "courage",
+          "domain": "moral",
+          "silhouette": 0.3887
+        },
+        {
+          "concept": "devotion",
+          "domain": "moral",
+          "silhouette": 0.3482
+        },
+        {
+          "concept": "dignity",
+          "domain": "moral",
+          "silhouette": 0.3145
+        },
+        {
+          "concept": "forgiveness",
+          "domain": "moral",
+          "silhouette": 0.3287
+        },
+        {
+          "concept": "generosity",
+          "domain": "moral",
+          "silhouette": 0.4048
+        },
+        {
+          "concept": "gratitude",
+          "domain": "moral",
+          "silhouette": 0.2699
+        },
+        {
+          "concept": "honesty",
+          "domain": "moral",
+          "silhouette": 0.3449
+        },
+        {
+          "concept": "honor",
+          "domain": "moral",
+          "silhouette": 0.3307
+        },
+        {
+          "concept": "humility",
+          "domain": "moral",
+          "silhouette": 0.3966
+        },
+        {
+          "concept": "integrity",
+          "domain": "moral",
+          "silhouette": 0.2962
+        },
+        {
+          "concept": "loyalty",
+          "domain": "moral",
+          "silhouette": 0.3783
+        },
+        {
+          "concept": "obedience",
+          "domain": "moral",
+          "silhouette": 0.3568
+        },
+        {
+          "concept": "sacrifice",
+          "domain": "moral",
+          "silhouette": 0.2921
+        },
+        {
+          "concept": "tolerance",
+          "domain": "moral",
+          "silhouette": 0.299
+        },
+        {
+          "concept": "wisdom",
+          "domain": "moral",
+          "silhouette": 0.3125
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "id": "fact-check",
-  "label": "Fact Check",
-  "description": "Verify numbers, citations, cross-references, and internal consistency",
-  "system_prompt": "You are a fact-checker. Your job is to find numerical errors, citation problems, and internal inconsistencies. Check every number against every other mention of the same number. Check every claim against the data tables. Do not review prose style or argumentation.",
-  "user_template": "Fact-check the following document. For each issue found, state:\n- The location (section and paragraph)\n- The claim or number\n- What contradicts it (another section, a table, or arithmetic)\n- The correct value if determinable\n\nSpecifically check:\n- Do numbers in prose match numbers in tables?\n- Do section cross-references point to the right content?\n- Are effect size descriptions consistent with the values (e.g., calling 0.54 'large' when the text defines 'large' as > 0.8)?\n- Do citation counts match (e.g., 'two combinations' when the table shows three)?\n- Is arithmetic correct (e.g., Holm-Bonferroni corrections)?\n\n---\n\n{document}"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "stance-check",
-  "label": "Stance Check",
-  "description": "Find mechanism claims, speculation presented as fact, and observer-role violations",
-  "system_prompt": "You are reviewing a research paper that should maintain an observe-and-report stance. The author can describe what models did (behavioral observations) but should not claim to know why (mechanism claims). Speculation belongs in the Discussion section and must be labeled as such. Be specific: quote the problematic text and explain what it should say instead.",
-  "user_template": "Review the following document for stance violations. Flag every instance of:\n- Mechanism claims: attributing behavior to internal processes (e.g., 'safety training caused,' 'the model's representations,' 'cognitive surface area')\n- Speculation presented as fact: causal claims in Results that belong in Discussion\n- The paper or document treated as an actor (e.g., 'the paper describes' instead of 'I describe')\n- Internal-state language: references to what the model 'knows,' 'thinks,' 'believes,' or 'understands'\n\nFor each issue, quote the text and provide a behavioral rewrite.\n\n---\n\n{document}"
-}

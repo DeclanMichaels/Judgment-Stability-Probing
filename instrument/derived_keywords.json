@@ -1,0 +1,5366 @@
+{
+  "method": "differential_document_frequency",
+  "description": "Keywords derived by computing log-odds ratio of document frequency under each framing condition vs unframed baseline. Words appearing at least 5 times with log-odds >= 3.0 (~20.1x overrepresentation) are included.",
+  "parameters": {
+    "min_log_odds": 3.0,
+    "min_count": 5,
+    "smoothing": 0.5
+  },
+  "framings": {
+    "collectivist": {
+      "n_explanations": 44361,
+      "n_baseline": 44360,
+      "n_keywords": 142,
+      "keywords": [
+        "collectivist",
+        "consensus",
+        "harmony",
+        "priorities",
+        "bears",
+        "communal",
+        "elders",
+        "fabric",
+        "subordinated",
+        "knit",
+        "deviate",
+        "prioritized",
+        "deviance",
+        "undermines",
+        "advancement",
+        "interdependence",
+        "subordinates",
+        "paramount",
+        "reinforcing",
+        "solidarity",
+        "lubricant",
+        "integrates",
+        "redistributing",
+        "society",
+        "lens",
+        "externalized",
+        "minimize",
+        "prosperity",
+        "bridge",
+        "norms",
+        "cohesion",
+        "salient",
+        "proximity",
+        "family",
+        "subgroups",
+        "individualism",
+        "codifies",
+        "blurring",
+        "shame",
+        "unifying",
+        "bind",
+        "dissenting",
+        "threatens",
+        "incorporating",
+        "dishonor",
+        "account",
+        "likened",
+        "harmonious",
+        "assimilating",
+        "shaped",
+        "closeness",
+        "ingrained",
+        "outsiders",
+        "individually",
+        "ancestors",
+        "indivisible",
+        "reinforces",
+        "inseparable",
+        "noting",
+        "shielding",
+        "subgroup",
+        "saving",
+        "elder",
+        "encouraged",
+        "monitor",
+        "codification",
+        "subsumed",
+        "justify",
+        "unify",
+        "internalize",
+        "reintegration",
+        "lines",
+        "competition",
+        "pooling",
+        "pools",
+        "delegated",
+        "metaphorize",
+        "glue",
+        "punishes",
+        "collective",
+        "sanctioned",
+        "heightened",
+        "resonate",
+        "visible",
+        "repairing",
+        "endorsed",
+        "shield",
+        "disharmony",
+        "conformity",
+        "evoking",
+        "diffused",
+        "tendencies",
+        "disloyalty",
+        "embedding",
+        "rhythmically",
+        "minimizes",
+        "enumerating",
+        "group",
+        "embodied",
+        "amplify",
+        "protective",
+        "communally",
+        "equity",
+        "implicit",
+        "endorses",
+        "weakens",
+        "relentless",
+        "organically",
+        "metallic",
+        "emphasized",
+        "outsider",
+        "fuels",
+        "left",
+        "intergroup",
+        "enhancing",
+        "sufficiency",
+        "currency",
+        "fracturing",
+        "newcomer",
+        "spaces",
+        "valor",
+        "priority",
+        "aggregated",
+        "detrimental",
+        "unity",
+        "integrate",
+        "interdependent",
+        "pillars",
+        "filtered",
+        "survival",
+        "prominence",
+        "distinctiveness",
+        "inevitably",
+        "deviating",
+        "echo",
+        "pronounced",
+        "assigned",
+        "aggregating",
+        "supersedes",
+        "discouraging",
+        "analogized",
+        "individualistic"
+      ],
+      "details": [
+        {
+          "word": "collectivist",
+          "log_odds": 11.009,
+          "frame_doc_freq": 30198,
+          "frame_doc_pct": 68.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "consensus",
+          "log_odds": 6.506,
+          "frame_doc_freq": 334,
+          "frame_doc_pct": 0.8,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "harmony",
+          "log_odds": 5.531,
+          "frame_doc_freq": 6182,
+          "frame_doc_pct": 13.9,
+          "baseline_doc_freq": 24,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "priorities",
+          "log_odds": 5.434,
+          "frame_doc_freq": 114,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bears",
+          "log_odds": 5.283,
+          "frame_doc_freq": 98,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "communal",
+          "log_odds": 5.189,
+          "frame_doc_freq": 2779,
+          "frame_doc_pct": 6.3,
+          "baseline_doc_freq": 15,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elders",
+          "log_odds": 5.142,
+          "frame_doc_freq": 85,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fabric",
+          "log_odds": 5.118,
+          "frame_doc_freq": 83,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subordinated",
+          "log_odds": 4.99,
+          "frame_doc_freq": 73,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "knit",
+          "log_odds": 4.745,
+          "frame_doc_freq": 57,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviate",
+          "log_odds": 4.654,
+          "frame_doc_freq": 52,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prioritized",
+          "log_odds": 4.635,
+          "frame_doc_freq": 51,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviance",
+          "log_odds": 4.635,
+          "frame_doc_freq": 51,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undermines",
+          "log_odds": 4.554,
+          "frame_doc_freq": 47,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "advancement",
+          "log_odds": 4.533,
+          "frame_doc_freq": 46,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "interdependence",
+          "log_odds": 4.415,
+          "frame_doc_freq": 289,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subordinates",
+          "log_odds": 4.369,
+          "frame_doc_freq": 39,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "paramount",
+          "log_odds": 4.369,
+          "frame_doc_freq": 39,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reinforcing",
+          "log_odds": 4.354,
+          "frame_doc_freq": 194,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "solidarity",
+          "log_odds": 4.29,
+          "frame_doc_freq": 36,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lubricant",
+          "log_odds": 4.263,
+          "frame_doc_freq": 35,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "integrates",
+          "log_odds": 4.234,
+          "frame_doc_freq": 34,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "redistributing",
+          "log_odds": 4.215,
+          "frame_doc_freq": 101,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "society",
+          "log_odds": 4.211,
+          "frame_doc_freq": 29977,
+          "frame_doc_pct": 67.6,
+          "baseline_doc_freq": 444,
+          "baseline_doc_pct": 1.0
+        },
+        {
+          "word": "lens",
+          "log_odds": 4.185,
+          "frame_doc_freq": 98,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "externalized",
+          "log_odds": 4.174,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimize",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prosperity",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bridge",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "norms",
+          "log_odds": 4.104,
+          "frame_doc_freq": 3484,
+          "frame_doc_pct": 7.9,
+          "baseline_doc_freq": 57,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "cohesion",
+          "log_odds": 4.079,
+          "frame_doc_freq": 1742,
+          "frame_doc_pct": 3.9,
+          "baseline_doc_freq": 29,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "salient",
+          "log_odds": 4.078,
+          "frame_doc_freq": 29,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "proximity",
+          "log_odds": 3.983,
+          "frame_doc_freq": 80,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "family",
+          "log_odds": 3.977,
+          "frame_doc_freq": 293,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 5,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subgroups",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individualism",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codifies",
+          "log_odds": 3.919,
+          "frame_doc_freq": 75,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "blurring",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "shame",
+          "log_odds": 3.878,
+          "frame_doc_freq": 72,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unifying",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bind",
+          "log_odds": 3.85,
+          "frame_doc_freq": 70,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dissenting",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "threatens",
+          "log_odds": 3.821,
+          "frame_doc_freq": 68,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "incorporating",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dishonor",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "account",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "harmonious",
+          "log_odds": 3.792,
+          "frame_doc_freq": 199,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assimilating",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "shaped",
+          "log_odds": 3.736,
+          "frame_doc_freq": 272,
+          "frame_doc_pct": 0.6,
+          "baseline_doc_freq": 6,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "closeness",
+          "log_odds": 3.73,
+          "frame_doc_freq": 62,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ingrained",
+          "log_odds": 3.714,
+          "frame_doc_freq": 20,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "outsiders",
+          "log_odds": 3.694,
+          "frame_doc_freq": 100,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individually",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ancestors",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "indivisible",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reinforces",
+          "log_odds": 3.633,
+          "frame_doc_freq": 321,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 8,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inseparable",
+          "log_odds": 3.629,
+          "frame_doc_freq": 56,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "noting",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "shielding",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subgroup",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "saving",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elder",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "encouraged",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "monitor",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codification",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subsumed",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "justify",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unify",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "internalize",
+          "log_odds": 3.496,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reintegration",
+          "log_odds": 3.496,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lines",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "competition",
+          "log_odds": 3.434,
+          "frame_doc_freq": 46,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pooling",
+          "log_odds": 3.434,
+          "frame_doc_freq": 46,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pools",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "delegated",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "metaphorize",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "glue",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "punishes",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "collective",
+          "log_odds": 3.423,
+          "frame_doc_freq": 12765,
+          "frame_doc_pct": 28.8,
+          "baseline_doc_freq": 416,
+          "baseline_doc_pct": 0.9
+        },
+        {
+          "word": "sanctioned",
+          "log_odds": 3.412,
+          "frame_doc_freq": 45,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "heightened",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "resonate",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "visible",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "repairing",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "endorsed",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "shield",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "disharmony",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "conformity",
+          "log_odds": 3.316,
+          "frame_doc_freq": 454,
+          "frame_doc_pct": 1.0,
+          "baseline_doc_freq": 16,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "evoking",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "diffused",
+          "log_odds": 3.296,
+          "frame_doc_freq": 40,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tendencies",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "disloyalty",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "embedding",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rhythmically",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimizes",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enumerating",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "group",
+          "log_odds": 3.245,
+          "frame_doc_freq": 15069,
+          "frame_doc_pct": 34.0,
+          "baseline_doc_freq": 587,
+          "baseline_doc_pct": 1.3
+        },
+        {
+          "word": "embodied",
+          "log_odds": 3.245,
+          "frame_doc_freq": 38,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "amplify",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "protective",
+          "log_odds": 3.219,
+          "frame_doc_freq": 37,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "communally",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equity",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "implicit",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "endorses",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "weakens",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "relentless",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "organically",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "metallic",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "emphasized",
+          "log_odds": 3.186,
+          "frame_doc_freq": 60,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "outsider",
+          "log_odds": 3.148,
+          "frame_doc_freq": 81,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fuels",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "left",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "intergroup",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enhancing",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sufficiency",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "currency",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fracturing",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "newcomer",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "spaces",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "valor",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "priority",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "aggregated",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "detrimental",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unity",
+          "log_odds": 3.109,
+          "frame_doc_freq": 481,
+          "frame_doc_pct": 1.1,
+          "baseline_doc_freq": 21,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "integrate",
+          "log_odds": 3.076,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "interdependent",
+          "log_odds": 3.076,
+          "frame_doc_freq": 97,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pillars",
+          "log_odds": 3.044,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "filtered",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "survival",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prominence",
+          "log_odds": 3.044,
+          "frame_doc_freq": 52,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "distinctiveness",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inevitably",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviating",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "echo",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pronounced",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assigned",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "aggregating",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "supersedes",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "discouraging",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "analogized",
+          "log_odds": 3.044,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individualistic",
+          "log_odds": 3.006,
+          "frame_doc_freq": 50,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    },
+    "egalitarian": {
+      "n_explanations": 44358,
+      "n_baseline": 44360,
+      "n_keywords": 51,
+      "keywords": [
+        "egalitarian",
+        "equally",
+        "equal",
+        "equals",
+        "equity",
+        "equitably",
+        "equality",
+        "equitable",
+        "inequalities",
+        "bridge",
+        "redistributing",
+        "redistributive",
+        "inequality",
+        "noting",
+        "everyone",
+        "peers",
+        "imbalances",
+        "minimized",
+        "minimize",
+        "consensus",
+        "universally",
+        "opportunities",
+        "superior",
+        "bears",
+        "uniformly",
+        "likened",
+        "unequal",
+        "codifies",
+        "society",
+        "codification",
+        "discouraging",
+        "leveling",
+        "minimizes",
+        "rank",
+        "disparities",
+        "redistribute",
+        "lubricant",
+        "undermines",
+        "hereditary",
+        "reform",
+        "sits",
+        "uneasily",
+        "guarantees",
+        "elite",
+        "inclusivity",
+        "prioritized",
+        "advancement",
+        "tempered",
+        "privileged",
+        "imbalance",
+        "paramount"
+      ],
+      "details": [
+        {
+          "word": "egalitarian",
+          "log_odds": 10.198,
+          "frame_doc_freq": 13429,
+          "frame_doc_pct": 30.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equally",
+          "log_odds": 5.342,
+          "frame_doc_freq": 313,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equal",
+          "log_odds": 4.76,
+          "frame_doc_freq": 1576,
+          "frame_doc_pct": 3.6,
+          "baseline_doc_freq": 13,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equals",
+          "log_odds": 4.755,
+          "frame_doc_freq": 290,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equity",
+          "log_odds": 4.745,
+          "frame_doc_freq": 57,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equitably",
+          "log_odds": 4.691,
+          "frame_doc_freq": 54,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equality",
+          "log_odds": 4.673,
+          "frame_doc_freq": 1016,
+          "frame_doc_pct": 2.3,
+          "baseline_doc_freq": 9,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "equitable",
+          "log_odds": 4.668,
+          "frame_doc_freq": 372,
+          "frame_doc_pct": 0.8,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inequalities",
+          "log_odds": 4.654,
+          "frame_doc_freq": 52,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bridge",
+          "log_odds": 4.575,
+          "frame_doc_freq": 48,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "redistributing",
+          "log_odds": 4.244,
+          "frame_doc_freq": 104,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "redistributive",
+          "log_odds": 4.234,
+          "frame_doc_freq": 34,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inequality",
+          "log_odds": 4.234,
+          "frame_doc_freq": 103,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "noting",
+          "log_odds": 4.174,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "everyone",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "peers",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imbalances",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimized",
+          "log_odds": 4.078,
+          "frame_doc_freq": 29,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimize",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "consensus",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "universally",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "opportunities",
+          "log_odds": 3.742,
+          "frame_doc_freq": 105,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "superior",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bears",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "uniformly",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unequal",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codifies",
+          "log_odds": 3.476,
+          "frame_doc_freq": 48,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "society",
+          "log_odds": 3.473,
+          "frame_doc_freq": 14329,
+          "frame_doc_pct": 32.3,
+          "baseline_doc_freq": 444,
+          "baseline_doc_pct": 1.0
+        },
+        {
+          "word": "codification",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "discouraging",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "leveling",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimizes",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rank",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "disparities",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "redistribute",
+          "log_odds": 3.207,
+          "frame_doc_freq": 86,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lubricant",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undermines",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hereditary",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reform",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sits",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "uneasily",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "guarantees",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elite",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inclusivity",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prioritized",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "advancement",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tempered",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "privileged",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imbalance",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "paramount",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    },
+    "geometric": {
+      "n_explanations": 44360,
+      "n_baseline": 44360,
+      "n_keywords": 116,
+      "keywords": [
+        "geometric",
+        "angles",
+        "lines",
+        "polygonal",
+        "vector",
+        "vectors",
+        "axioms",
+        "geometry",
+        "polygon",
+        "vertices",
+        "proportions",
+        "angular",
+        "precision",
+        "polygons",
+        "sharp",
+        "trajectories",
+        "expansion",
+        "spatially",
+        "axiomatic",
+        "ray",
+        "vertex",
+        "angle",
+        "shapes",
+        "axis",
+        "margin",
+        "curves",
+        "precise",
+        "proportion",
+        "planes",
+        "bears",
+        "paramount",
+        "symmetrical",
+        "likened",
+        "inverse",
+        "fit",
+        "theorems",
+        "rank",
+        "frictionless",
+        "evokes",
+        "reshaping",
+        "polyhedral",
+        "paths",
+        "symmetric",
+        "symmetries",
+        "realignment",
+        "whatsoever",
+        "edges",
+        "thin",
+        "convergence",
+        "hidden",
+        "trajectory",
+        "perfect",
+        "configurations",
+        "mapped",
+        "deviate",
+        "logical",
+        "edge",
+        "integrates",
+        "map",
+        "unbroken",
+        "facets",
+        "unbent",
+        "rigidly",
+        "spaces",
+        "modeled",
+        "perimeter",
+        "perfection",
+        "unblemished",
+        "volumetric",
+        "evoking",
+        "maximal",
+        "measurements",
+        "locking",
+        "singular",
+        "assigned",
+        "enhancing",
+        "geometrically",
+        "signifying",
+        "constitutes",
+        "positional",
+        "spatial",
+        "undirected",
+        "faceted",
+        "analogized",
+        "ranked",
+        "constructions",
+        "refine",
+        "enumerating",
+        "euclidean",
+        "configuration",
+        "codification",
+        "rational",
+        "accommodates",
+        "mapping",
+        "reframed",
+        "sided",
+        "impositions",
+        "variance",
+        "multifaceted",
+        "polyhedron",
+        "radial",
+        "curvature",
+        "harmonious",
+        "symmetry",
+        "akin",
+        "tendencies",
+        "permeates",
+        "composite",
+        "mating",
+        "divergent",
+        "tallies",
+        "ascent",
+        "intricate",
+        "subtraction",
+        "isotropic",
+        "alignments"
+      ],
+      "details": [
+        {
+          "word": "geometric",
+          "log_odds": 9.295,
+          "frame_doc_freq": 5439,
+          "frame_doc_pct": 12.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "angles",
+          "log_odds": 6.444,
+          "frame_doc_freq": 314,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lines",
+          "log_odds": 5.911,
+          "frame_doc_freq": 184,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "polygonal",
+          "log_odds": 5.557,
+          "frame_doc_freq": 129,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "vector",
+          "log_odds": 5.434,
+          "frame_doc_freq": 114,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "vectors",
+          "log_odds": 5.263,
+          "frame_doc_freq": 96,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "axioms",
+          "log_odds": 5.263,
+          "frame_doc_freq": 96,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "geometry",
+          "log_odds": 5.231,
+          "frame_doc_freq": 93,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "polygon",
+          "log_odds": 5.069,
+          "frame_doc_freq": 79,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "vertices",
+          "log_odds": 4.963,
+          "frame_doc_freq": 71,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "proportions",
+          "log_odds": 4.89,
+          "frame_doc_freq": 66,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "angular",
+          "log_odds": 4.762,
+          "frame_doc_freq": 175,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "precision",
+          "log_odds": 4.466,
+          "frame_doc_freq": 43,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "polygons",
+          "log_odds": 4.466,
+          "frame_doc_freq": 43,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sharp",
+          "log_odds": 4.317,
+          "frame_doc_freq": 37,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "trajectories",
+          "log_odds": 4.29,
+          "frame_doc_freq": 36,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "expansion",
+          "log_odds": 4.29,
+          "frame_doc_freq": 36,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "spatially",
+          "log_odds": 4.263,
+          "frame_doc_freq": 35,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "axiomatic",
+          "log_odds": 4.205,
+          "frame_doc_freq": 33,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ray",
+          "log_odds": 4.174,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "vertex",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "angle",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "shapes",
+          "log_odds": 4.117,
+          "frame_doc_freq": 889,
+          "frame_doc_pct": 2.0,
+          "baseline_doc_freq": 14,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "axis",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "margin",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "curves",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "precise",
+          "log_odds": 3.945,
+          "frame_doc_freq": 232,
+          "frame_doc_pct": 0.5,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "proportion",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "planes",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bears",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "paramount",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "symmetrical",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inverse",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fit",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "theorems",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rank",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "frictionless",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "evokes",
+          "log_odds": 3.761,
+          "frame_doc_freq": 107,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reshaping",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "polyhedral",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "paths",
+          "log_odds": 3.653,
+          "frame_doc_freq": 96,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "symmetric",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "symmetries",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "realignment",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "whatsoever",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "edges",
+          "log_odds": 3.539,
+          "frame_doc_freq": 120,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "thin",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "convergence",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hidden",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "trajectory",
+          "log_odds": 3.447,
+          "frame_doc_freq": 78,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "perfect",
+          "log_odds": 3.447,
+          "frame_doc_freq": 78,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "configurations",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "mapped",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviate",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "logical",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "edge",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "integrates",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "map",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unbroken",
+          "log_odds": 3.395,
+          "frame_doc_freq": 74,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "facets",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unbent",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rigidly",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "spaces",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "modeled",
+          "log_odds": 3.367,
+          "frame_doc_freq": 43,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "perimeter",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "perfection",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unblemished",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "volumetric",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "evoking",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "maximal",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "measurements",
+          "log_odds": 3.337,
+          "frame_doc_freq": 98,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "locking",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "singular",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assigned",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enhancing",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "geometrically",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "signifying",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "constitutes",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "positional",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "spatial",
+          "log_odds": 3.263,
+          "frame_doc_freq": 561,
+          "frame_doc_pct": 1.3,
+          "baseline_doc_freq": 21,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undirected",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "faceted",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "analogized",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ranked",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "constructions",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "refine",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enumerating",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "euclidean",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "configuration",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codification",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rational",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "accommodates",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "mapping",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reframed",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sided",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "impositions",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "variance",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "multifaceted",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "polyhedron",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "radial",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "curvature",
+          "log_odds": 3.135,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "harmonious",
+          "log_odds": 3.126,
+          "frame_doc_freq": 102,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "symmetry",
+          "log_odds": 3.096,
+          "frame_doc_freq": 99,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "akin",
+          "log_odds": 3.062,
+          "frame_doc_freq": 117,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 5,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tendencies",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "permeates",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "composite",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "mating",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "divergent",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tallies",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ascent",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "intricate",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subtraction",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "isotropic",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "alignments",
+          "log_odds": 3.012,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    },
+    "glorbic": {
+      "n_explanations": 44359,
+      "n_baseline": 44360,
+      "n_keywords": 22,
+      "keywords": [
+        "glorbic",
+        "fictional",
+        "gloribic",
+        "unknown",
+        "likened",
+        "glorb",
+        "fabric",
+        "advancement",
+        "blob",
+        "singular",
+        "signifying",
+        "imaginative",
+        "hypothetical",
+        "immense",
+        "imagine",
+        "whatsoever",
+        "echo",
+        "monitor",
+        "codification",
+        "integrates",
+        "expansion",
+        "visible"
+      ],
+      "details": [
+        {
+          "word": "glorbic",
+          "log_odds": 9.512,
+          "frame_doc_freq": 6757,
+          "frame_doc_pct": 15.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fictional",
+          "log_odds": 4.595,
+          "frame_doc_freq": 49,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "gloribic",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unknown",
+          "log_odds": 4.007,
+          "frame_doc_freq": 27,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "glorb",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fabric",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "advancement",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "blob",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "singular",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "signifying",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imaginative",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hypothetical",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "immense",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imagine",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "whatsoever",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "echo",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "monitor",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codification",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "integrates",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "expansion",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "visible",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    },
+    "hierarchical": {
+      "n_explanations": 44359,
+      "n_baseline": 44360,
+      "n_keywords": 140,
+      "keywords": [
+        "superiors",
+        "strata",
+        "ranks",
+        "rank",
+        "subordinates",
+        "superior",
+        "below",
+        "classes",
+        "top",
+        "ranked",
+        "stratification",
+        "unequal",
+        "elite",
+        "imbalances",
+        "ruling",
+        "bottom",
+        "inequalities",
+        "advancement",
+        "station",
+        "hierarchical",
+        "strategic",
+        "elites",
+        "tiers",
+        "discretionary",
+        "chain",
+        "beneath",
+        "ranking",
+        "currency",
+        "inevitable",
+        "noting",
+        "inferiors",
+        "assigned",
+        "bears",
+        "apex",
+        "entrenched",
+        "undermines",
+        "collapse",
+        "elders",
+        "reinforcing",
+        "defy",
+        "frustrations",
+        "distinctions",
+        "inequality",
+        "likened",
+        "sanctioned",
+        "ascent",
+        "delegated",
+        "bridge",
+        "society",
+        "followers",
+        "codifies",
+        "dissent",
+        "visible",
+        "statuses",
+        "downwards",
+        "outsiders",
+        "patronage",
+        "legitimately",
+        "lines",
+        "bestow",
+        "justify",
+        "elder",
+        "attributed",
+        "constructed",
+        "upwards",
+        "privilege",
+        "positions",
+        "soften",
+        "denied",
+        "stratum",
+        "dissenting",
+        "privileged",
+        "valor",
+        "ascend",
+        "restricted",
+        "echelons",
+        "lubricant",
+        "unevenly",
+        "inferior",
+        "corrupt",
+        "deviate",
+        "concentrates",
+        "ascribed",
+        "distort",
+        "lateral",
+        "inherited",
+        "subservience",
+        "dominant",
+        "monitor",
+        "enumerating",
+        "codification",
+        "intensifies",
+        "imbalance",
+        "blurring",
+        "manipulated",
+        "hierarchy",
+        "selectively",
+        "chains",
+        "tier",
+        "extracted",
+        "setbacks",
+        "stratified",
+        "reinforces",
+        "categorizing",
+        "rigidification",
+        "surveillance",
+        "categorization",
+        "oblige",
+        "noblesse",
+        "rigidly",
+        "rungs",
+        "stabilizes",
+        "justifies",
+        "benevolently",
+        "survival",
+        "filtered",
+        "peers",
+        "suppressed",
+        "benefactors",
+        "owe",
+        "appease",
+        "redistributing",
+        "repercussions",
+        "assimilating",
+        "solicits",
+        "stratify",
+        "stripped",
+        "permanence",
+        "rendered",
+        "hereditary",
+        "dampens",
+        "insufficient",
+        "deviance",
+        "strategically",
+        "marker",
+        "upper",
+        "directionally",
+        "classifying",
+        "clashing",
+        "mobility"
+      ],
+      "details": [
+        {
+          "word": "superiors",
+          "log_odds": 7.386,
+          "frame_doc_freq": 806,
+          "frame_doc_pct": 1.8,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "strata",
+          "log_odds": 7.104,
+          "frame_doc_freq": 608,
+          "frame_doc_pct": 1.4,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ranks",
+          "log_odds": 7.078,
+          "frame_doc_freq": 592,
+          "frame_doc_pct": 1.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rank",
+          "log_odds": 7.006,
+          "frame_doc_freq": 551,
+          "frame_doc_pct": 1.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subordinates",
+          "log_odds": 6.399,
+          "frame_doc_freq": 300,
+          "frame_doc_pct": 0.7,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "superior",
+          "log_odds": 6.347,
+          "frame_doc_freq": 285,
+          "frame_doc_pct": 0.6,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "below",
+          "log_odds": 6.146,
+          "frame_doc_freq": 233,
+          "frame_doc_pct": 0.5,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "classes",
+          "log_odds": 5.989,
+          "frame_doc_freq": 199,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "top",
+          "log_odds": 5.857,
+          "frame_doc_freq": 524,
+          "frame_doc_pct": 1.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ranked",
+          "log_odds": 5.66,
+          "frame_doc_freq": 143,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stratification",
+          "log_odds": 5.323,
+          "frame_doc_freq": 102,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unequal",
+          "log_odds": 5.323,
+          "frame_doc_freq": 102,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elite",
+          "log_odds": 5.176,
+          "frame_doc_freq": 88,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imbalances",
+          "log_odds": 5.165,
+          "frame_doc_freq": 87,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ruling",
+          "log_odds": 5.071,
+          "frame_doc_freq": 398,
+          "frame_doc_pct": 0.9,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bottom",
+          "log_odds": 5.056,
+          "frame_doc_freq": 78,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inequalities",
+          "log_odds": 4.99,
+          "frame_doc_freq": 73,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "advancement",
+          "log_odds": 4.92,
+          "frame_doc_freq": 68,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "station",
+          "log_odds": 4.745,
+          "frame_doc_freq": 57,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hierarchical",
+          "log_odds": 4.722,
+          "frame_doc_freq": 20518,
+          "frame_doc_pct": 46.3,
+          "baseline_doc_freq": 182,
+          "baseline_doc_pct": 0.4
+        },
+        {
+          "word": "strategic",
+          "log_odds": 4.673,
+          "frame_doc_freq": 53,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elites",
+          "log_odds": 4.654,
+          "frame_doc_freq": 52,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tiers",
+          "log_odds": 4.635,
+          "frame_doc_freq": 51,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "discretionary",
+          "log_odds": 4.466,
+          "frame_doc_freq": 43,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "chain",
+          "log_odds": 4.419,
+          "frame_doc_freq": 41,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "beneath",
+          "log_odds": 4.378,
+          "frame_doc_freq": 119,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ranking",
+          "log_odds": 4.318,
+          "frame_doc_freq": 37,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "currency",
+          "log_odds": 4.318,
+          "frame_doc_freq": 37,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inevitable",
+          "log_odds": 4.253,
+          "frame_doc_freq": 105,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "noting",
+          "log_odds": 4.205,
+          "frame_doc_freq": 33,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inferiors",
+          "log_odds": 4.205,
+          "frame_doc_freq": 33,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assigned",
+          "log_odds": 4.174,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bears",
+          "log_odds": 4.174,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "apex",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "entrenched",
+          "log_odds": 4.078,
+          "frame_doc_freq": 29,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undermines",
+          "log_odds": 4.043,
+          "frame_doc_freq": 28,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "collapse",
+          "log_odds": 4.007,
+          "frame_doc_freq": 27,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elders",
+          "log_odds": 4.007,
+          "frame_doc_freq": 27,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reinforcing",
+          "log_odds": 4.0,
+          "frame_doc_freq": 136,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "defy",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "frustrations",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "distinctions",
+          "log_odds": 3.905,
+          "frame_doc_freq": 74,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inequality",
+          "log_odds": 3.905,
+          "frame_doc_freq": 74,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sanctioned",
+          "log_odds": 3.864,
+          "frame_doc_freq": 71,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ascent",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "delegated",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bridge",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "society",
+          "log_odds": 3.838,
+          "frame_doc_freq": 20645,
+          "frame_doc_pct": 46.5,
+          "baseline_doc_freq": 444,
+          "baseline_doc_pct": 1.0
+        },
+        {
+          "word": "followers",
+          "log_odds": 3.836,
+          "frame_doc_freq": 69,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codifies",
+          "log_odds": 3.777,
+          "frame_doc_freq": 65,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dissent",
+          "log_odds": 3.741,
+          "frame_doc_freq": 147,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "visible",
+          "log_odds": 3.714,
+          "frame_doc_freq": 20,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "statuses",
+          "log_odds": 3.714,
+          "frame_doc_freq": 20,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "downwards",
+          "log_odds": 3.714,
+          "frame_doc_freq": 20,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "outsiders",
+          "log_odds": 3.704,
+          "frame_doc_freq": 101,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "patronage",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "legitimately",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lines",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bestow",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "justify",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "elder",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "attributed",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "constructed",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "upwards",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "privilege",
+          "log_odds": 3.536,
+          "frame_doc_freq": 51,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "positions",
+          "log_odds": 3.52,
+          "frame_doc_freq": 388,
+          "frame_doc_pct": 0.9,
+          "baseline_doc_freq": 11,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "soften",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "denied",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stratum",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dissenting",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "privileged",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "valor",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ascend",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "restricted",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "echelons",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lubricant",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "unevenly",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inferior",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "corrupt",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviate",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "concentrates",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ascribed",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "distort",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lateral",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "inherited",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "subservience",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dominant",
+          "log_odds": 3.347,
+          "frame_doc_freq": 99,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "monitor",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enumerating",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codification",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "intensifies",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "imbalance",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "blurring",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "manipulated",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hierarchy",
+          "log_odds": 3.246,
+          "frame_doc_freq": 1451,
+          "frame_doc_pct": 3.3,
+          "baseline_doc_freq": 56,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "selectively",
+          "log_odds": 3.245,
+          "frame_doc_freq": 38,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "chains",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tier",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "extracted",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "setbacks",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stratified",
+          "log_odds": 3.207,
+          "frame_doc_freq": 86,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reinforces",
+          "log_odds": 3.166,
+          "frame_doc_freq": 201,
+          "frame_doc_pct": 0.5,
+          "baseline_doc_freq": 8,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "categorizing",
+          "log_odds": 3.164,
+          "frame_doc_freq": 35,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rigidification",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "surveillance",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "categorization",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "oblige",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "noblesse",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rigidly",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rungs",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stabilizes",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "justifies",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "benevolently",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "survival",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "filtered",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "peers",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "suppressed",
+          "log_odds": 3.123,
+          "frame_doc_freq": 79,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "benefactors",
+          "log_odds": 3.106,
+          "frame_doc_freq": 33,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "owe",
+          "log_odds": 3.082,
+          "frame_doc_freq": 54,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "appease",
+          "log_odds": 3.076,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "redistributing",
+          "log_odds": 3.076,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "repercussions",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assimilating",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "solicits",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stratify",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stripped",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "permanence",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rendered",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "hereditary",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dampens",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "insufficient",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "deviance",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "strategically",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "marker",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "upper",
+          "log_odds": 3.045,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "directionally",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "classifying",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "clashing",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "mobility",
+          "log_odds": 3.005,
+          "frame_doc_freq": 171,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 8,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    },
+    "individualist": {
+      "n_explanations": 44359,
+      "n_baseline": 44360,
+      "n_keywords": 118,
+      "keywords": [
+        "individualist",
+        "suspicion",
+        "liberty",
+        "reliance",
+        "advancement",
+        "individualism",
+        "prioritized",
+        "prizes",
+        "rational",
+        "undervalued",
+        "skepticism",
+        "reliant",
+        "transactional",
+        "bears",
+        "earnings",
+        "individualists",
+        "ownership",
+        "devalued",
+        "prized",
+        "competitive",
+        "countercultural",
+        "achievement",
+        "strategic",
+        "referential",
+        "liberties",
+        "undermines",
+        "relentless",
+        "setbacks",
+        "collectivist",
+        "prevailing",
+        "society",
+        "consensus",
+        "lifestyles",
+        "noting",
+        "autonomously",
+        "clashing",
+        "chosen",
+        "counter",
+        "divergent",
+        "pragmatic",
+        "sits",
+        "disconnected",
+        "proximity",
+        "bridge",
+        "assertive",
+        "infringement",
+        "emphasized",
+        "paramount",
+        "salient",
+        "lens",
+        "impositions",
+        "likened",
+        "viewed",
+        "prize",
+        "coercive",
+        "legitimately",
+        "aggregates",
+        "infringe",
+        "interested",
+        "runs",
+        "culturally",
+        "ambivalence",
+        "ethos",
+        "skeptically",
+        "competition",
+        "touch",
+        "infringing",
+        "enhancing",
+        "strategically",
+        "optional",
+        "overrides",
+        "stark",
+        "reluctant",
+        "dampens",
+        "negatively",
+        "individually",
+        "metaphorize",
+        "fabric",
+        "reclaim",
+        "improvement",
+        "stifles",
+        "tally",
+        "freedom",
+        "individualistic",
+        "downplaying",
+        "guaranteeing",
+        "defy",
+        "delegates",
+        "reframed",
+        "precedence",
+        "bottom",
+        "whatsoever",
+        "freedoms",
+        "choice",
+        "resented",
+        "laden",
+        "mild",
+        "detached",
+        "priorities",
+        "encounter",
+        "consenting",
+        "reasoned",
+        "irrational",
+        "pronounced",
+        "thin",
+        "restrained",
+        "minimize",
+        "diluting",
+        "brake",
+        "codifies",
+        "delegated",
+        "top",
+        "cultures",
+        "distancing",
+        "distances",
+        "dependency",
+        "automatic",
+        "innovation"
+      ],
+      "details": [
+        {
+          "word": "individualist",
+          "log_odds": 10.804,
+          "frame_doc_freq": 24601,
+          "frame_doc_pct": 55.5,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "suspicion",
+          "log_odds": 5.707,
+          "frame_doc_freq": 150,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "liberty",
+          "log_odds": 5.653,
+          "frame_doc_freq": 142,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reliance",
+          "log_odds": 5.582,
+          "frame_doc_freq": 398,
+          "frame_doc_pct": 0.9,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "advancement",
+          "log_odds": 5.509,
+          "frame_doc_freq": 123,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individualism",
+          "log_odds": 5.352,
+          "frame_doc_freq": 105,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prioritized",
+          "log_odds": 5.273,
+          "frame_doc_freq": 97,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prizes",
+          "log_odds": 5.273,
+          "frame_doc_freq": 97,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "rational",
+          "log_odds": 5.03,
+          "frame_doc_freq": 76,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undervalued",
+          "log_odds": 4.844,
+          "frame_doc_freq": 63,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "skepticism",
+          "log_odds": 4.762,
+          "frame_doc_freq": 58,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reliant",
+          "log_odds": 4.756,
+          "frame_doc_freq": 174,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "transactional",
+          "log_odds": 4.691,
+          "frame_doc_freq": 54,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bears",
+          "log_odds": 4.654,
+          "frame_doc_freq": 52,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "earnings",
+          "log_odds": 4.554,
+          "frame_doc_freq": 47,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individualists",
+          "log_odds": 4.533,
+          "frame_doc_freq": 46,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ownership",
+          "log_odds": 4.489,
+          "frame_doc_freq": 44,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "devalued",
+          "log_odds": 4.489,
+          "frame_doc_freq": 44,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prized",
+          "log_odds": 4.419,
+          "frame_doc_freq": 41,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "competitive",
+          "log_odds": 4.318,
+          "frame_doc_freq": 37,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "countercultural",
+          "log_odds": 4.29,
+          "frame_doc_freq": 36,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "achievement",
+          "log_odds": 4.267,
+          "frame_doc_freq": 249,
+          "frame_doc_pct": 0.6,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "strategic",
+          "log_odds": 4.234,
+          "frame_doc_freq": 34,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "referential",
+          "log_odds": 4.234,
+          "frame_doc_freq": 34,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "liberties",
+          "log_odds": 4.234,
+          "frame_doc_freq": 103,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "undermines",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "relentless",
+          "log_odds": 4.143,
+          "frame_doc_freq": 31,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "setbacks",
+          "log_odds": 4.111,
+          "frame_doc_freq": 30,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "collectivist",
+          "log_odds": 4.078,
+          "frame_doc_freq": 29,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prevailing",
+          "log_odds": 4.043,
+          "frame_doc_freq": 28,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "society",
+          "log_odds": 4.026,
+          "frame_doc_freq": 24904,
+          "frame_doc_pct": 56.1,
+          "baseline_doc_freq": 444,
+          "baseline_doc_pct": 1.0
+        },
+        {
+          "word": "consensus",
+          "log_odds": 3.97,
+          "frame_doc_freq": 26,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lifestyles",
+          "log_odds": 3.945,
+          "frame_doc_freq": 77,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "noting",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "autonomously",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "clashing",
+          "log_odds": 3.932,
+          "frame_doc_freq": 25,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "chosen",
+          "log_odds": 3.9,
+          "frame_doc_freq": 469,
+          "frame_doc_pct": 1.1,
+          "baseline_doc_freq": 9,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "counter",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "divergent",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pragmatic",
+          "log_odds": 3.892,
+          "frame_doc_freq": 24,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "sits",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "disconnected",
+          "log_odds": 3.85,
+          "frame_doc_freq": 23,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "proximity",
+          "log_odds": 3.821,
+          "frame_doc_freq": 68,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bridge",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "assertive",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "infringement",
+          "log_odds": 3.807,
+          "frame_doc_freq": 22,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "emphasized",
+          "log_odds": 3.798,
+          "frame_doc_freq": 111,
+          "frame_doc_pct": 0.3,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "paramount",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "salient",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "lens",
+          "log_odds": 3.761,
+          "frame_doc_freq": 64,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "impositions",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "likened",
+          "log_odds": 3.761,
+          "frame_doc_freq": 21,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "viewed",
+          "log_odds": 3.758,
+          "frame_doc_freq": 664,
+          "frame_doc_pct": 1.5,
+          "baseline_doc_freq": 15,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "prize",
+          "log_odds": 3.714,
+          "frame_doc_freq": 20,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "coercive",
+          "log_odds": 3.695,
+          "frame_doc_freq": 382,
+          "frame_doc_pct": 0.9,
+          "baseline_doc_freq": 9,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "legitimately",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "aggregates",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "infringe",
+          "log_odds": 3.664,
+          "frame_doc_freq": 19,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "interested",
+          "log_odds": 3.63,
+          "frame_doc_freq": 207,
+          "frame_doc_pct": 0.5,
+          "baseline_doc_freq": 5,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "runs",
+          "log_odds": 3.611,
+          "frame_doc_freq": 18,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "culturally",
+          "log_odds": 3.593,
+          "frame_doc_freq": 163,
+          "frame_doc_pct": 0.4,
+          "baseline_doc_freq": 4,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ambivalence",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "ethos",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "skeptically",
+          "log_odds": 3.555,
+          "frame_doc_freq": 17,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "competition",
+          "log_odds": 3.536,
+          "frame_doc_freq": 51,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "touch",
+          "log_odds": 3.517,
+          "frame_doc_freq": 50,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "infringing",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "enhancing",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "strategically",
+          "log_odds": 3.497,
+          "frame_doc_freq": 16,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "optional",
+          "log_odds": 3.434,
+          "frame_doc_freq": 46,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "overrides",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stark",
+          "log_odds": 3.434,
+          "frame_doc_freq": 15,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reluctant",
+          "log_odds": 3.412,
+          "frame_doc_freq": 45,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dampens",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "negatively",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "individually",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "metaphorize",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "fabric",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reclaim",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "improvement",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "stifles",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "tally",
+          "log_odds": 3.367,
+          "frame_doc_freq": 14,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "freedom",
+          "log_odds": 3.34,
+          "frame_doc_freq": 860,
+          "frame_doc_pct": 1.9,
+          "baseline_doc_freq": 30,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "individualistic",
+          "log_odds": 3.339,
+          "frame_doc_freq": 70,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "downplaying",
+          "log_odds": 3.325,
+          "frame_doc_freq": 69,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 2,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "guaranteeing",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "defy",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "delegates",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reframed",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "precedence",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "bottom",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "whatsoever",
+          "log_odds": 3.296,
+          "frame_doc_freq": 13,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "freedoms",
+          "log_odds": 3.283,
+          "frame_doc_freq": 706,
+          "frame_doc_pct": 1.6,
+          "baseline_doc_freq": 26,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "choice",
+          "log_odds": 3.275,
+          "frame_doc_freq": 885,
+          "frame_doc_pct": 2.0,
+          "baseline_doc_freq": 33,
+          "baseline_doc_pct": 0.1
+        },
+        {
+          "word": "resented",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "laden",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "mild",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "detached",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "priorities",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "encounter",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "consenting",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "reasoned",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "irrational",
+          "log_odds": 3.219,
+          "frame_doc_freq": 12,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "pronounced",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "thin",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "restrained",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "minimize",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "diluting",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "brake",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "codifies",
+          "log_odds": 3.136,
+          "frame_doc_freq": 34,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "delegated",
+          "log_odds": 3.136,
+          "frame_doc_freq": 11,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "top",
+          "log_odds": 3.076,
+          "frame_doc_freq": 32,
+          "frame_doc_pct": 0.1,
+          "baseline_doc_freq": 1,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "cultures",
+          "log_odds": 3.063,
+          "frame_doc_freq": 224,
+          "frame_doc_pct": 0.5,
+          "baseline_doc_freq": 10,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "distancing",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "distances",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "dependency",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "automatic",
+          "log_odds": 3.045,
+          "frame_doc_freq": 10,
+          "frame_doc_pct": 0.0,
+          "baseline_doc_freq": 0,
+          "baseline_doc_pct": 0.0
+        },
+        {
+          "word": "innovation",
+          "log_odds": 3.003,
+          "frame_doc_freq": 70,
+          "frame_doc_pct": 0.2,
+          "baseline_doc_freq": 3,
+          "baseline_doc_pct": 0.0
+        }
+      ]
+    }
+  }
+}

@@ -2,19 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-*.egg-info/
-.venv/
-.embedding-venv/
-.pytest_cache/
-
-# Raw results are distributed as results/rcp-v2.zip to stay under GitHub's file size limits.
-# Unzip before rebuilding the report. The zip is tracked; the expanded directories are not.
-results/rcp-v2/*/
-
-# Full report JSON files exceed GitHub's 100MB limit.
-# report-lite.json files are included and sufficient for the viewer.
-# Rebuild report.json locally with build_report.py if needed.
-experiments/rcp-v2/report.json
-experiments/rcp-v2/explanations.json
-experiments/rcp-v2/analysis/*/report.json
-experiments/rcp-v2/analysis/*/explanations.json
+working/
+report/report.json

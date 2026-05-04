@@ -1,0 +1,34 @@
+{
+  "experiment": "rcp-v2",
+  "model": "gpt-5.4",
+  "vendor": "openai",
+  "started": "2026-04-15T23:26:59.441293+00:00",
+  "completed": "2026-04-16T14:34:29.772366+00:00",
+  "cancelled": false,
+  "resumed": false,
+  "resumed_from": 0,
+  "parameters": {
+    "iterations": 2,
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "templates_used": [
+      "unframed",
+      "individualist",
+      "collectivist",
+      "hierarchical",
+      "egalitarian",
+      "geometric",
+      "glorbic"
+    ],
+    "delay_seconds": 1.0
+  },
+  "counts": {
+    "stimuli": 1431,
+    "templates": 7,
+    "iterations": 2,
+    "expected_responses": 20034,
+    "actual_responses": 20034,
+    "parse_failures": 0,
+    "api_errors": 0
+  }
+}
