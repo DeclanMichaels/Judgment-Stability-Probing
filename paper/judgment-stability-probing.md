@@ -28,7 +28,7 @@ This paper is organized as follows. Section 3 describes the theoretical framewor
 
 ### 3.1 Background
 
-Judgment Stability Probing (JSP, called Relational Consistency Probing in V1) adapts an established technique from neuroscience called Representational Similarity Analysis. Here is how it works: we ask the model to rate how similar pairs of concepts are (e.g., loyalty and obedience) on a scale of 1 to 7. Then we add a framing like "In a collectivist society" and ask again. If the ratings stay the same, the model's judgments are stable. If they change, the framing influenced them. If they change under "In a geometric society," a framing with no real cultural content, the instability is not cultural sensitivity. It is something else. The method's intellectual lineage and the boundary of what it can claim to measure are described in Michaels (2026).
+Judgment Stability Probing (JSP, called Relational Consistency Probing in V1) adapts an established technique from neuroscience called Representational Similarity Analysis. Here is how it works: we ask the model to rate how similar pairs of concepts are (e.g., loyalty and obedience) on a scale of 1 to 7. Then we add a framing like "In a collectivist society" and ask again. If the ratings stay the same, the model's judgments are stable. If they change, the framing influenced them. If they change under "In a geometric society," a framing with no real cultural content, the instability is not cultural sensitivity. It is something else. The method's intellectual lineage and the boundary of what it can claim to measure are described in Michaels (2026). Ogg, Bose, Scharf, Ratto, and Wolmetz (2024) independently adapted RSA for measuring human-AI alignment, using pairwise similarity ratings to construct dissimilarity matrices for structural comparison. Their approach and JSP share the same core mechanism but ask different questions: Ogg et al. measure whether human and model representations match, while JSP measures whether model representations hold under perturbation.
 
 This is the second version of the instrument. V1 (Michaels, 2026) tested five models and revealed nonsense keyword incorporation as an exploratory finding, but had design limitations: a small concept inventory, multi-sentence role-play prompts that confounded framing with instruction-following, and a statistical test that proved structurally unable to detect the predicted effect. V2 addresses these problems. The concept inventory expands from 18 to 54 concepts with much stronger domain separation. The framing is reduced to a single prepended sentence, removing the instruction confound. The nonsense conditions test two levels of interpretability: "geometric" (a real word applied nonsensically) gives the model existing meaning to build on, while "glorbic" (a neologism) gives it nothing. The model sample expands to eight models across five vendors.
 
@@ -560,8 +560,6 @@ The two most consequential deviations are documented in Section 4.9 of the main 
 
 2. **Temperature 0 pass added.** The pre-registration specifies temperature 0.7 as the primary analysis dataset. A temperature 0 near-deterministic pass was added to enable stability comparison. The primary analysis uses temperature 0.7 data for drift, rank-order preservation, and judge-validated incorporation rates.
 
-3. **Physical drift prediction not supported.** The pre-registered hypothesis H6 predicted near-zero physical drift across all framings. The data does not support this prediction. This is a failed hypothesis, not a protocol deviation; the analysis ran as specified.
-
 ---
 
 ### Appendix G. Full Temperature Comparison
@@ -678,6 +676,10 @@ The V1 experiment. Tested five models with 18 concepts under seven framings. Est
 **Noble, S. U. (2018).** *Algorithms of Oppression: How Search Engines Reinforce Racism.* NYU Press. https://doi.org/10.2307/j.ctt1pwt9w5
 
 Documented how search engine algorithms encode and propagate racial and cultural biases at scale. Cited in Section 2 as prior work on technology as a delivery mechanism for cultural assumptions.
+
+**Ogg, M., Bose, R., Scharf, J., Ratto, C., and Wolmetz, M. (2024).** A flexible method for behaviorally measuring alignment between human and artificial intelligence using representational similarity analysis. *arXiv preprint*, arXiv:2412.00577. https://arxiv.org/abs/2412.00577
+
+Adapted RSA from neuroscience for measuring human-AI alignment using pairwise similarity ratings. Tested semantic alignment across text and image modalities, measuring how LLM and VLM similarity judgments aligned with human responses at group and individual levels. Found that GPT-4o showed the strongest alignment among models tested, but no model adequately captured inter-individual variability among human participants. This paper cites Ogg in Section 3.1 as the closest methodological precedent: both JSP and Ogg et al. use pairwise similarity ratings to construct dissimilarity matrices for structural comparison. The key difference is the question asked: Ogg et al. measure whether human and model representations match (alignment), while JSP measures whether model representations hold under framing perturbation (stability).
 
 **Schwartz, S. H. (1994).** Beyond individualism/collectivism: New cultural dimensions of values. In U. Kim, H. C. Triandis, C. Kagitcibasi, S. C. Choi, and G. Yoon (Eds.), *Individualism and collectivism: Theory, method, and applications* (pp. 85-119). Sage.
 
