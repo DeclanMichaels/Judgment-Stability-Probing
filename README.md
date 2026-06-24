@@ -168,7 +168,7 @@ Each line in `responses.jsonl` is a JSON object:
 
 ## Related
 
-- **Paper (PDF):** [moral-os.com/papers/rcp-v2-paper.pdf](https://moral-os.com/papers/rcp-v2-paper.pdf)
+- **Paper (PDF):** [moral-os.com/papers/judgment-stability-probing.pdf](https://moral-os.com/papers/judgment-stability-probing.pdf)
 - **Pre-registration:** [osf.io/xnv5f](https://osf.io/xnv5f)
 - **V1 paper:** [moral-os.com/papers/relational-consistency-probing.pdf](https://moral-os.com/papers/relational-consistency-probing.pdf)
 - **Website:** [moral-os.com](https://moral-os.com)
