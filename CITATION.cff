@@ -6,7 +6,7 @@ authors:
     given-names: Declan
 version: "1.0.0"
 date-released: "2026-04-30"
-url: "https://github.com/DeclanMichaels/Judgment-Stability-Probing"
-repository-code: "https://github.com/DeclanMichaels/Judgment-Stability-Probing"
+url: "https://github.com/DeclanMichaels/judgment-stability-probing"
+repository-code: "https://github.com/DeclanMichaels/judgment-stability-probing"
 license: Apache-2.0
 # doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
