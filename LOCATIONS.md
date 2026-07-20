@@ -1,29 +1,27 @@
 # Where this work lives
 
-Canonical index of every public location for **Judgment Stability Probing (RCP V2)**.
+Canonical index of every public location for **Judgment Stability Under Cultural Perturbation: Probing Eight Large Language Models for Framing Sensitivity**.
 Each home below should link back to this file, so any entry point reaches the whole set.
 
 ## Locations
 
 - **Source (data + code)** — GitHub: https://github.com/DeclanMichaels/judgment-stability-probing  ← living source
-- **Archived snapshot (citable)** — Zenodo: `TBD` (mint the DOI, then update this file and `CITATION.cff`)
-- **Preprint / report** — https://moral-os.com/papers/judgment-stability-probing.pdf
+- **Preprint (citable version of record)** — Zenodo: https://doi.org/10.5281/zenodo.20822306  (concept DOI — always resolves to the latest version)
+- **Readable paper** — https://moral-os.com/papers/judgment-stability-probing.pdf
 - **Interactive viewer** — https://moral-os.com  (results viewer)
 - **Preregistration / OSF** — https://osf.io/xnv5f  _(verify which is the preregistration vs. project/data component)_
 - **Program umbrella** — https://moral-os.com  (Cross-Cultural Alignment Study)
 
 ## Version of record
 
-The Zenodo DOI is the citable record for the preprint and the archived data/code;
-OSF holds the preregistration timestamp; moral-os.com is the readable / interactive
-front door; this GitHub repository is the living source. Machine-readable
-identifiers are mirrored in `CITATION.cff`.
+The Zenodo concept DOI above is the citable record and always resolves to the
+latest version; OSF holds the preregistration timestamp; moral-os.com is the
+readable front door; this GitHub repository is the living source. The concept DOI
+is mirrored in `CITATION.cff`.
 
-## To finish before minting the DOI
+## To finish before publishing
 
-- [ ] Mint the Zenodo DOI and replace the `TBD`s here and the commented `doi:` in `CITATION.cff`
 - [ ] Confirm the OSF component role(s) and link(s) above
-- [ ] Confirm the moral-os.com paper / viewer URLs
 - [ ] Add a back-link to this file from moral-os.com, the OSF project, and the Zenodo record
 
-_Last updated: on publish_
+_Last updated: 2026-07-20_
