@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Results data, analysis code, and results viewer for the RCP V2 experiment"
+authors:
+  - family-names: Michaels
+    given-names: Declan
+version: "1.0.0"
+date-released: "2026-04-30"
+url: "https://github.com/DeclanMichaels/Judgment-Stability-Probing"
+repository-code: "https://github.com/DeclanMichaels/Judgment-Stability-Probing"
+license: Apache-2.0
+# doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
